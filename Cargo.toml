@@ -1,0 +1,16 @@
+[package]
+name = "soladev-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+base64 = "0.21"
+bs58 = "0.5"
+solana-sdk = { version = "1.16", features = ["full"] }
+spl-token = { version = "3.5", features = ["no-entrypoint"] }
+hex = "0.4"
+thiserror = "1.0"

@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.4"
+base58 = "0.2.0"
+base64 = "0.22.1"
 serde = "1.0.219"
 solana-sdk = "2.3.1"
+spl-token = "8.0.0"
 tokio = { version = "1.45.1", features = ["full"] }
